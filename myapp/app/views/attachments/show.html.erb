@@ -2,7 +2,7 @@
 
 <p>
   <strong>Data:</strong>
-  <%= @attachment.data %>
+  <%= link_to @attachment.data, @attachment.data.url %>
 </p>
 
 <%= link_to 'Edit', edit_attachment_path(@attachment) %> |
